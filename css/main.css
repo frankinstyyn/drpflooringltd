@@ -903,3 +903,17 @@ color: black;
   color: #b4b4b4 !important;
   text-decoration: underline !important;
 }
+
+.maps iframe{
+    pointer-events: none;
+}
+
+.content-container {
+    margin-top: 10px;
+    
+    width: 100%; height: 100px;   
+    
+    background: rgba(255, 0, 0, .1);
+    
+    text-align: center;
+}
