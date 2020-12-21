@@ -28,8 +28,6 @@ body {
 
 .center {
   margin: auto;
-  width: 50%;
-  padding: 10px;
 }
 
 .formPadding {
@@ -109,7 +107,13 @@ margin-left: 40%;
 }
 
 .paragraph {
-  padding: 10rem 5rem 0rem 5rem;  
+  padding: 1rem 5rem 0rem 5rem;  
+}
+
+.servicesParagraph {
+  text-align: center;
+  min-width: 80%;
+  padding: 0rem 3rem 0rem 3rem;
 }
 
 .page-cover {
@@ -192,6 +196,14 @@ margin-left: 40%;
   padding: 40px;
   width: 80%;
   color: #333;
+}
+
+.getintouchcontainer {
+  text-align: center;
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: right;
 }
 
 .multiple-items img {
@@ -860,9 +872,8 @@ color: black;
 }
 
 #servicesList {
-  line-height: 1.5em;
-  text-align: center;
-  list-style-image: url(../images/flooringIcon.png)   
+  list-style-image: url(../images/flooringIcon.png);
+  padding-left: 15%;
 }
 
 .jobList {
