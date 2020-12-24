@@ -154,6 +154,7 @@ margin-left: 40%;
   line-height: 1;
   padding: 0;
   margin: 0;
+  padding-bottom: 1.5rem;
 }
 
 .myContainer p {
@@ -927,4 +928,15 @@ color: black;
     background: rgba(255, 0, 0, .1);
     
     text-align: center;
+}
+
+.yellCard {
+  border: solid rgba(128, 128, 128, 0.226) 1px;
+  width: 100%;
+  padding: 1rem 3rem 1rem 3rem;
+  margin-bottom: 4%;
+}
+
+.yellCard > p {
+  font-size: 0.9rem;
 }
