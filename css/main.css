@@ -110,6 +110,11 @@ margin-left: 40%;
   padding: 1rem 5rem 0rem 5rem;  
 }
 
+.paragraph-details {
+  padding: 1rem 5rem 0rem 5rem;
+  color: red;
+}
+
 .servicesParagraph {
   text-align: center;
   min-width: 80%;
@@ -875,6 +880,10 @@ color: black;
 #servicesList {
   list-style-image: url(../images/flooringIcon.png);
   padding-left: 15%;
+}
+
+.aboutList {
+  padding-left: 50%;
 }
 
 .jobList {
