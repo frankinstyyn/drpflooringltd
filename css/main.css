@@ -979,6 +979,7 @@ color: black;
 .social-btns .btn .fa {
   transition: all 0.35s;
   transition-timing-function: cubic-bezier(0.31, -0.105, 0.43, 1.59);
+  padding-bottom: 1rem;
 }
 .social-btns .btn:before {
   top: 90%;
@@ -992,6 +993,7 @@ color: black;
 }
 .social-btns .btn.facebook .fa {
   color: #3b5998;
+  padding-bottom: 1rem;
 }
 .social-btns .btn.twitter:before {
   background-color: #3cf;
